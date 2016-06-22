@@ -1,0 +1,427 @@
+[2016-06-17 03:02:17] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'parse error' in /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php:29
+Stack trace:
+#0 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-06-17 03:03:52] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'parse error' in /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php:29
+Stack trace:
+#0 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-06-17 03:05:02] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: conn' in /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php:21
+Stack trace:
+#0 /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php(21): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/Users/david/Do...', 21, Array)
+#1 [internal function]: App\Http\Controllers\CepController->consulta('29730000')
+#2 /Users/david/Documents/projetos/api-cep/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#3 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(593): Illuminate\Container\Container->call(Array, Array)
+#4 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(560): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#5 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(533): Laravel\Lumen\Application->callLumenController(Object(App\Http\Controllers\CepController), 'consulta', Array)
+#6 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(501): Laravel\Lumen\Application->callControllerAction(Array)
+#7 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(486): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(456): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(388): Laravel\Lumen\Application->handleDispatcherResponse(Array)
+#10 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(636): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#11 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(389): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#12 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(334): Laravel\Lumen\Application->dispatch(NULL)
+#13 /Users/david/Documents/projetos/api-cep/public/index.php(28): Laravel\Lumen\Application->run()
+#14 {main}  
+[2016-06-17 03:05:20] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: data' in /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php:27
+Stack trace:
+#0 /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php(27): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/Users/david/Do...', 27, Array)
+#1 [internal function]: App\Http\Controllers\CepController->consulta('29730000')
+#2 /Users/david/Documents/projetos/api-cep/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#3 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(593): Illuminate\Container\Container->call(Array, Array)
+#4 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(560): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#5 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(533): Laravel\Lumen\Application->callLumenController(Object(App\Http\Controllers\CepController), 'consulta', Array)
+#6 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(501): Laravel\Lumen\Application->callControllerAction(Array)
+#7 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(486): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(456): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(388): Laravel\Lumen\Application->handleDispatcherResponse(Array)
+#10 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(636): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#11 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(389): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#12 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(334): Laravel\Lumen\Application->dispatch(NULL)
+#13 /Users/david/Documents/projetos/api-cep/public/index.php(28): Laravel\Lumen\Application->run()
+#14 {main}  
+[2016-06-17 03:05:27] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: data' in /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php:27
+Stack trace:
+#0 /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php(27): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/Users/david/Do...', 27, Array)
+#1 [internal function]: App\Http\Controllers\CepController->consulta('29730000')
+#2 /Users/david/Documents/projetos/api-cep/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#3 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(593): Illuminate\Container\Container->call(Array, Array)
+#4 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(560): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#5 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(533): Laravel\Lumen\Application->callLumenController(Object(App\Http\Controllers\CepController), 'consulta', Array)
+#6 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(501): Laravel\Lumen\Application->callControllerAction(Array)
+#7 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(486): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(456): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(388): Laravel\Lumen\Application->handleDispatcherResponse(Array)
+#10 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(636): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#11 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(389): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#12 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(334): Laravel\Lumen\Application->dispatch(NULL)
+#13 /Users/david/Documents/projetos/api-cep/public/index.php(28): Laravel\Lumen\Application->run()
+#14 {main}  
+[2016-06-17 03:05:52] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'parse error' in /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php:29
+Stack trace:
+#0 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-06-17 03:06:17] lumen.ERROR: exception 'Exception' with message 'Webservice "currency" is not found.' in /Users/david/Documents/projetos/api-cep/vendor/artisaninweb/laravel-soap/src/Artisaninweb/SoapWrapper/Wrapper.php:61
+Stack trace:
+#0 /Users/david/Documents/projetos/api-cep/vendor/illuminate/support/Facades/Facade.php(219): Artisaninweb\SoapWrapper\Wrapper->service('currency', Object(Closure))
+#1 /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php(30): Illuminate\Support\Facades\Facade::__callStatic('service', Array)
+#2 /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php(30): Artisaninweb\SoapWrapper\Facades\SoapWrapper::service('currency', Object(Closure))
+#3 [internal function]: App\Http\Controllers\CepController->consulta('29730000')
+#4 /Users/david/Documents/projetos/api-cep/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#5 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(593): Illuminate\Container\Container->call(Array, Array)
+#6 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(560): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#7 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(533): Laravel\Lumen\Application->callLumenController(Object(App\Http\Controllers\CepController), 'consulta', Array)
+#8 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(501): Laravel\Lumen\Application->callControllerAction(Array)
+#9 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(486): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#10 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(456): Laravel\Lumen\Application->handleFoundRoute(Array)
+#11 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(388): Laravel\Lumen\Application->handleDispatcherResponse(Array)
+#12 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(636): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#13 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(389): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#14 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(334): Laravel\Lumen\Application->dispatch(NULL)
+#15 /Users/david/Documents/projetos/api-cep/public/index.php(28): Laravel\Lumen\Application->run()
+#16 {main}  
+[2016-06-17 03:06:27] lumen.ERROR: exception 'Exception' with message 'Webservice "consultaCEP" is not found.' in /Users/david/Documents/projetos/api-cep/vendor/artisaninweb/laravel-soap/src/Artisaninweb/SoapWrapper/Wrapper.php:61
+Stack trace:
+#0 /Users/david/Documents/projetos/api-cep/vendor/illuminate/support/Facades/Facade.php(219): Artisaninweb\SoapWrapper\Wrapper->service('consultaCEP', Object(Closure))
+#1 /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php(30): Illuminate\Support\Facades\Facade::__callStatic('service', Array)
+#2 /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php(30): Artisaninweb\SoapWrapper\Facades\SoapWrapper::service('consultaCEP', Object(Closure))
+#3 [internal function]: App\Http\Controllers\CepController->consulta('29730000')
+#4 /Users/david/Documents/projetos/api-cep/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#5 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(593): Illuminate\Container\Container->call(Array, Array)
+#6 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(560): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#7 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(533): Laravel\Lumen\Application->callLumenController(Object(App\Http\Controllers\CepController), 'consulta', Array)
+#8 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(501): Laravel\Lumen\Application->callControllerAction(Array)
+#9 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(486): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#10 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(456): Laravel\Lumen\Application->handleFoundRoute(Array)
+#11 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(388): Laravel\Lumen\Application->handleDispatcherResponse(Array)
+#12 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(636): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#13 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(389): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#14 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(334): Laravel\Lumen\Application->dispatch(NULL)
+#15 /Users/david/Documents/projetos/api-cep/public/index.php(28): Laravel\Lumen\Application->run()
+#16 {main}  
+[2016-06-17 03:07:01] lumen.ERROR: exception 'ErrorException' with message 'Undefined property: stdClass::$consultaCEP' in /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php:31
+Stack trace:
+#0 /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php(31): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined prope...', '/Users/david/Do...', 31, Array)
+#1 /Users/david/Documents/projetos/api-cep/vendor/artisaninweb/laravel-soap/src/Artisaninweb/SoapWrapper/Wrapper.php(57): App\Http\Controllers\CepController->App\Http\Controllers\{closure}(Object(Artisaninweb\SoapWrapper\Service))
+#2 /Users/david/Documents/projetos/api-cep/vendor/illuminate/support/Facades/Facade.php(219): Artisaninweb\SoapWrapper\Wrapper->service('consultaCEP', Object(Closure))
+#3 /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php(32): Illuminate\Support\Facades\Facade::__callStatic('service', Array)
+#4 /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php(32): Artisaninweb\SoapWrapper\Facades\SoapWrapper::service('consultaCEP', Object(Closure))
+#5 [internal function]: App\Http\Controllers\CepController->consulta('29730000')
+#6 /Users/david/Documents/projetos/api-cep/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#7 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(593): Illuminate\Container\Container->call(Array, Array)
+#8 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(560): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#9 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(533): Laravel\Lumen\Application->callLumenController(Object(App\Http\Controllers\CepController), 'consulta', Array)
+#10 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(501): Laravel\Lumen\Application->callControllerAction(Array)
+#11 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(486): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#12 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(456): Laravel\Lumen\Application->handleFoundRoute(Array)
+#13 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(388): Laravel\Lumen\Application->handleDispatcherResponse(Array)
+#14 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(636): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#15 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(389): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#16 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(334): Laravel\Lumen\Application->dispatch(NULL)
+#17 /Users/david/Documents/projetos/api-cep/public/index.php(28): Laravel\Lumen\Application->run()
+#18 {main}  
+[2016-06-17 03:07:39] lumen.ERROR: exception 'Exception' with message 'Webservice "currency" is not found.' in /Users/david/Documents/projetos/api-cep/vendor/artisaninweb/laravel-soap/src/Artisaninweb/SoapWrapper/Wrapper.php:61
+Stack trace:
+#0 /Users/david/Documents/projetos/api-cep/vendor/illuminate/support/Facades/Facade.php(219): Artisaninweb\SoapWrapper\Wrapper->service('currency', Object(Closure))
+#1 /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php(30): Illuminate\Support\Facades\Facade::__callStatic('service', Array)
+#2 /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php(30): Artisaninweb\SoapWrapper\Facades\SoapWrapper::service('currency', Object(Closure))
+#3 [internal function]: App\Http\Controllers\CepController->consulta('29730000')
+#4 /Users/david/Documents/projetos/api-cep/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#5 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(593): Illuminate\Container\Container->call(Array, Array)
+#6 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(560): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#7 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(533): Laravel\Lumen\Application->callLumenController(Object(App\Http\Controllers\CepController), 'consulta', Array)
+#8 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(501): Laravel\Lumen\Application->callControllerAction(Array)
+#9 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(486): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#10 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(456): Laravel\Lumen\Application->handleFoundRoute(Array)
+#11 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(388): Laravel\Lumen\Application->handleDispatcherResponse(Array)
+#12 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(636): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#13 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(389): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#14 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(334): Laravel\Lumen\Application->dispatch(NULL)
+#15 /Users/david/Documents/projetos/api-cep/public/index.php(28): Laravel\Lumen\Application->run()
+#16 {main}  
+[2016-06-17 03:08:27] lumen.ERROR: exception 'ErrorException' with message 'Undefined property: stdClass::$consultaCEP' in /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php:32
+Stack trace:
+#0 /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php(32): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined prope...', '/Users/david/Do...', 32, Array)
+#1 /Users/david/Documents/projetos/api-cep/vendor/artisaninweb/laravel-soap/src/Artisaninweb/SoapWrapper/Wrapper.php(57): App\Http\Controllers\CepController->App\Http\Controllers\{closure}(Object(Artisaninweb\SoapWrapper\Service))
+#2 /Users/david/Documents/projetos/api-cep/vendor/illuminate/support/Facades/Facade.php(219): Artisaninweb\SoapWrapper\Wrapper->service('consultaCEP', Object(Closure))
+#3 /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php(33): Illuminate\Support\Facades\Facade::__callStatic('service', Array)
+#4 /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php(33): Artisaninweb\SoapWrapper\Facades\SoapWrapper::service('consultaCEP', Object(Closure))
+#5 [internal function]: App\Http\Controllers\CepController->consulta('29730000')
+#6 /Users/david/Documents/projetos/api-cep/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#7 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(593): Illuminate\Container\Container->call(Array, Array)
+#8 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(560): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#9 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(533): Laravel\Lumen\Application->callLumenController(Object(App\Http\Controllers\CepController), 'consulta', Array)
+#10 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(501): Laravel\Lumen\Application->callControllerAction(Array)
+#11 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(486): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#12 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(456): Laravel\Lumen\Application->handleFoundRoute(Array)
+#13 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(388): Laravel\Lumen\Application->handleDispatcherResponse(Array)
+#14 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(636): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#15 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(389): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#16 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(334): Laravel\Lumen\Application->dispatch(NULL)
+#17 /Users/david/Documents/projetos/api-cep/public/index.php(28): Laravel\Lumen\Application->run()
+#18 {main}  
+[2016-06-17 03:08:58] lumen.ERROR: exception 'ErrorException' with message 'Undefined property: stdClass::$consultaCEP' in /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php:33
+Stack trace:
+#0 /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php(33): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined prope...', '/Users/david/Do...', 33, Array)
+#1 /Users/david/Documents/projetos/api-cep/vendor/artisaninweb/laravel-soap/src/Artisaninweb/SoapWrapper/Wrapper.php(57): App\Http\Controllers\CepController->App\Http\Controllers\{closure}(Object(Artisaninweb\SoapWrapper\Service))
+#2 /Users/david/Documents/projetos/api-cep/vendor/illuminate/support/Facades/Facade.php(219): Artisaninweb\SoapWrapper\Wrapper->service('consultaCEP', Object(Closure))
+#3 /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php(34): Illuminate\Support\Facades\Facade::__callStatic('service', Array)
+#4 /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php(34): Artisaninweb\SoapWrapper\Facades\SoapWrapper::service('consultaCEP', Object(Closure))
+#5 [internal function]: App\Http\Controllers\CepController->consulta('29730000')
+#6 /Users/david/Documents/projetos/api-cep/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#7 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(593): Illuminate\Container\Container->call(Array, Array)
+#8 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(560): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#9 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(533): Laravel\Lumen\Application->callLumenController(Object(App\Http\Controllers\CepController), 'consulta', Array)
+#10 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(501): Laravel\Lumen\Application->callControllerAction(Array)
+#11 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(486): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#12 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(456): Laravel\Lumen\Application->handleFoundRoute(Array)
+#13 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(388): Laravel\Lumen\Application->handleDispatcherResponse(Array)
+#14 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(636): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#15 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(389): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#16 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(334): Laravel\Lumen\Application->dispatch(NULL)
+#17 /Users/david/Documents/projetos/api-cep/public/index.php(28): Laravel\Lumen\Application->run()
+#18 {main}  
+[2016-06-17 03:09:21] lumen.ERROR: SoapFault exception: [soap:Server] CEP NAO INFORMADO in /Users/david/Documents/projetos/api-cep/vendor/artisaninweb/laravel-soap/src/Artisaninweb/SoapWrapper/Service.php:218
+Stack trace:
+#0 [internal function]: SoapClient->__call('consultaCEP', Array)
+#1 [internal function]: SoapClient->consultaCEP('29730000')
+#2 /Users/david/Documents/projetos/api-cep/vendor/artisaninweb/laravel-soap/src/Artisaninweb/SoapWrapper/Service.php(218): call_user_func_array(Array, Array)
+#3 /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php(33): Artisaninweb\SoapWrapper\Service->call('consultaCEP', Array)
+#4 /Users/david/Documents/projetos/api-cep/vendor/artisaninweb/laravel-soap/src/Artisaninweb/SoapWrapper/Wrapper.php(57): App\Http\Controllers\CepController->App\Http\Controllers\{closure}(Object(Artisaninweb\SoapWrapper\Service))
+#5 /Users/david/Documents/projetos/api-cep/vendor/illuminate/support/Facades/Facade.php(219): Artisaninweb\SoapWrapper\Wrapper->service('consultaCEP', Object(Closure))
+#6 /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php(34): Illuminate\Support\Facades\Facade::__callStatic('service', Array)
+#7 /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php(34): Artisaninweb\SoapWrapper\Facades\SoapWrapper::service('consultaCEP', Object(Closure))
+#8 [internal function]: App\Http\Controllers\CepController->consulta('29730000')
+#9 /Users/david/Documents/projetos/api-cep/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#10 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(593): Illuminate\Container\Container->call(Array, Array)
+#11 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(560): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#12 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(533): Laravel\Lumen\Application->callLumenController(Object(App\Http\Controllers\CepController), 'consulta', Array)
+#13 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(501): Laravel\Lumen\Application->callControllerAction(Array)
+#14 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(486): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#15 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(456): Laravel\Lumen\Application->handleFoundRoute(Array)
+#16 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(388): Laravel\Lumen\Application->handleDispatcherResponse(Array)
+#17 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(636): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#18 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(389): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#19 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(334): Laravel\Lumen\Application->dispatch(NULL)
+#20 /Users/david/Documents/projetos/api-cep/public/index.php(28): Laravel\Lumen\Application->run()
+#21 {main}  
+[2016-06-17 03:09:37] lumen.ERROR: exception 'ErrorException' with message 'Undefined property: stdClass::$consultaCEP' in /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php:33
+Stack trace:
+#0 /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php(33): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined prope...', '/Users/david/Do...', 33, Array)
+#1 /Users/david/Documents/projetos/api-cep/vendor/artisaninweb/laravel-soap/src/Artisaninweb/SoapWrapper/Wrapper.php(57): App\Http\Controllers\CepController->App\Http\Controllers\{closure}(Object(Artisaninweb\SoapWrapper\Service))
+#2 /Users/david/Documents/projetos/api-cep/vendor/illuminate/support/Facades/Facade.php(219): Artisaninweb\SoapWrapper\Wrapper->service('consultaCEP', Object(Closure))
+#3 /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php(34): Illuminate\Support\Facades\Facade::__callStatic('service', Array)
+#4 /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php(34): Artisaninweb\SoapWrapper\Facades\SoapWrapper::service('consultaCEP', Object(Closure))
+#5 [internal function]: App\Http\Controllers\CepController->consulta('29730000')
+#6 /Users/david/Documents/projetos/api-cep/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#7 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(593): Illuminate\Container\Container->call(Array, Array)
+#8 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(560): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#9 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(533): Laravel\Lumen\Application->callLumenController(Object(App\Http\Controllers\CepController), 'consulta', Array)
+#10 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(501): Laravel\Lumen\Application->callControllerAction(Array)
+#11 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(486): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#12 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(456): Laravel\Lumen\Application->handleFoundRoute(Array)
+#13 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(388): Laravel\Lumen\Application->handleDispatcherResponse(Array)
+#14 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(636): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#15 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(389): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#16 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(334): Laravel\Lumen\Application->dispatch(NULL)
+#17 /Users/david/Documents/projetos/api-cep/public/index.php(28): Laravel\Lumen\Application->run()
+#18 {main}  
+[2016-06-17 03:10:00] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: consulta' in /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php:44
+Stack trace:
+#0 /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php(44): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/Users/david/Do...', 44, Array)
+#1 [internal function]: App\Http\Controllers\CepController->consulta('29730000')
+#2 /Users/david/Documents/projetos/api-cep/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#3 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(593): Illuminate\Container\Container->call(Array, Array)
+#4 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(560): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#5 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(533): Laravel\Lumen\Application->callLumenController(Object(App\Http\Controllers\CepController), 'consulta', Array)
+#6 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(501): Laravel\Lumen\Application->callControllerAction(Array)
+#7 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(486): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(456): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(388): Laravel\Lumen\Application->handleDispatcherResponse(Array)
+#10 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(636): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#11 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(389): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#12 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(334): Laravel\Lumen\Application->dispatch(NULL)
+#13 /Users/david/Documents/projetos/api-cep/public/index.php(28): Laravel\Lumen\Application->run()
+#14 {main}  
+[2016-06-17 03:10:45] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: consulta' in /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php:46
+Stack trace:
+#0 /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php(46): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/Users/david/Do...', 46, Array)
+#1 [internal function]: App\Http\Controllers\CepController->consulta('29730000')
+#2 /Users/david/Documents/projetos/api-cep/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#3 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(593): Illuminate\Container\Container->call(Array, Array)
+#4 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(560): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#5 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(533): Laravel\Lumen\Application->callLumenController(Object(App\Http\Controllers\CepController), 'consulta', Array)
+#6 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(501): Laravel\Lumen\Application->callControllerAction(Array)
+#7 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(486): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(456): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(388): Laravel\Lumen\Application->handleDispatcherResponse(Array)
+#10 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(636): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#11 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(389): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#12 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(334): Laravel\Lumen\Application->dispatch(NULL)
+#13 /Users/david/Documents/projetos/api-cep/public/index.php(28): Laravel\Lumen\Application->run()
+#14 {main}  
+[2016-06-17 03:11:07] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: consulta' in /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php:45
+Stack trace:
+#0 /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php(45): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/Users/david/Do...', 45, Array)
+#1 [internal function]: App\Http\Controllers\CepController->consulta('29730000')
+#2 /Users/david/Documents/projetos/api-cep/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#3 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(593): Illuminate\Container\Container->call(Array, Array)
+#4 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(560): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#5 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(533): Laravel\Lumen\Application->callLumenController(Object(App\Http\Controllers\CepController), 'consulta', Array)
+#6 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(501): Laravel\Lumen\Application->callControllerAction(Array)
+#7 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(486): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(456): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(388): Laravel\Lumen\Application->handleDispatcherResponse(Array)
+#10 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(636): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#11 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(389): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#12 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(334): Laravel\Lumen\Application->dispatch(NULL)
+#13 /Users/david/Documents/projetos/api-cep/public/index.php(28): Laravel\Lumen\Application->run()
+#14 {main}  
+[2016-06-17 03:12:07] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'parse error' in /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php:32
+Stack trace:
+#0 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-06-17 03:12:21] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: consulta' in /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php:45
+Stack trace:
+#0 /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php(45): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/Users/david/Do...', 45, Array)
+#1 [internal function]: App\Http\Controllers\CepController->consulta('29730000')
+#2 /Users/david/Documents/projetos/api-cep/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#3 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(593): Illuminate\Container\Container->call(Array, Array)
+#4 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(560): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#5 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(533): Laravel\Lumen\Application->callLumenController(Object(App\Http\Controllers\CepController), 'consulta', Array)
+#6 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(501): Laravel\Lumen\Application->callControllerAction(Array)
+#7 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(486): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(456): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(388): Laravel\Lumen\Application->handleDispatcherResponse(Array)
+#10 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(636): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#11 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(389): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#12 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(334): Laravel\Lumen\Application->dispatch(NULL)
+#13 /Users/david/Documents/projetos/api-cep/public/index.php(28): Laravel\Lumen\Application->run()
+#14 {main}  
+[2016-06-17 03:12:42] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: consulta' in /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php:35
+Stack trace:
+#0 /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php(35): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/Users/david/Do...', 35, Array)
+#1 [internal function]: App\Http\Controllers\CepController->consulta('29730000')
+#2 /Users/david/Documents/projetos/api-cep/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#3 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(593): Illuminate\Container\Container->call(Array, Array)
+#4 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(560): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#5 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(533): Laravel\Lumen\Application->callLumenController(Object(App\Http\Controllers\CepController), 'consulta', Array)
+#6 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(501): Laravel\Lumen\Application->callControllerAction(Array)
+#7 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(486): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(456): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(388): Laravel\Lumen\Application->handleDispatcherResponse(Array)
+#10 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(636): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#11 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(389): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#12 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(334): Laravel\Lumen\Application->dispatch(NULL)
+#13 /Users/david/Documents/projetos/api-cep/public/index.php(28): Laravel\Lumen\Application->run()
+#14 {main}  
+[2016-06-17 03:12:53] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: consulta' in /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php:35
+Stack trace:
+#0 /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php(35): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/Users/david/Do...', 35, Array)
+#1 [internal function]: App\Http\Controllers\CepController->consulta('29730000')
+#2 /Users/david/Documents/projetos/api-cep/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#3 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(593): Illuminate\Container\Container->call(Array, Array)
+#4 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(560): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#5 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(533): Laravel\Lumen\Application->callLumenController(Object(App\Http\Controllers\CepController), 'consulta', Array)
+#6 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(501): Laravel\Lumen\Application->callControllerAction(Array)
+#7 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(486): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(456): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(388): Laravel\Lumen\Application->handleDispatcherResponse(Array)
+#10 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(636): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#11 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(389): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#12 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(334): Laravel\Lumen\Application->dispatch(NULL)
+#13 /Users/david/Documents/projetos/api-cep/public/index.php(28): Laravel\Lumen\Application->run()
+#14 {main}  
+[2016-06-17 03:12:57] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: consulta' in /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php:35
+Stack trace:
+#0 /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php(35): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/Users/david/Do...', 35, Array)
+#1 [internal function]: App\Http\Controllers\CepController->consulta('29730000')
+#2 /Users/david/Documents/projetos/api-cep/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#3 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(593): Illuminate\Container\Container->call(Array, Array)
+#4 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(560): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#5 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(533): Laravel\Lumen\Application->callLumenController(Object(App\Http\Controllers\CepController), 'consulta', Array)
+#6 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(501): Laravel\Lumen\Application->callControllerAction(Array)
+#7 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(486): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(456): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(388): Laravel\Lumen\Application->handleDispatcherResponse(Array)
+#10 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(636): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#11 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(389): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#12 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(334): Laravel\Lumen\Application->dispatch(NULL)
+#13 /Users/david/Documents/projetos/api-cep/public/index.php(28): Laravel\Lumen\Application->run()
+#14 {main}  
+[2016-06-17 03:13:15] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'parse error' in /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php:30
+Stack trace:
+#0 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-06-17 03:13:28] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: consulta' in /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php:37
+Stack trace:
+#0 /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php(37): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/Users/david/Do...', 37, Array)
+#1 [internal function]: App\Http\Controllers\CepController->consulta('29730000')
+#2 /Users/david/Documents/projetos/api-cep/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#3 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(593): Illuminate\Container\Container->call(Array, Array)
+#4 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(560): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#5 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(533): Laravel\Lumen\Application->callLumenController(Object(App\Http\Controllers\CepController), 'consulta', Array)
+#6 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(501): Laravel\Lumen\Application->callControllerAction(Array)
+#7 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(486): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(456): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(388): Laravel\Lumen\Application->handleDispatcherResponse(Array)
+#10 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(636): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#11 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(389): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#12 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(334): Laravel\Lumen\Application->dispatch(NULL)
+#13 /Users/david/Documents/projetos/api-cep/public/index.php(28): Laravel\Lumen\Application->run()
+#14 {main}  
+[2016-06-17 03:17:33] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: service' in /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php:37
+Stack trace:
+#0 /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php(37): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/Users/david/Do...', 37, Array)
+#1 [internal function]: App\Http\Controllers\CepController->consulta('29730000')
+#2 /Users/david/Documents/projetos/api-cep/vendor/illuminate/container/Container.php(507): call_user_func_array(Array, Array)
+#3 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(593): Illuminate\Container\Container->call(Array, Array)
+#4 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(560): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#5 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(533): Laravel\Lumen\Application->callLumenController(Object(App\Http\Controllers\CepController), 'consulta', Array)
+#6 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(501): Laravel\Lumen\Application->callControllerAction(Array)
+#7 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(486): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#8 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(456): Laravel\Lumen\Application->handleFoundRoute(Array)
+#9 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(388): Laravel\Lumen\Application->handleDispatcherResponse(Array)
+#10 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(636): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#11 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(389): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#12 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(334): Laravel\Lumen\Application->dispatch(NULL)
+#13 /Users/david/Documents/projetos/api-cep/public/index.php(28): Laravel\Lumen\Application->run()
+#14 {main}  
+[2016-06-20 23:32:53] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'parse error' in /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php:44
+Stack trace:
+#0 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-06-20 23:43:25] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'parse error' in /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php:35
+Stack trace:
+#0 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-06-21 00:09:48] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'parse error' in /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php:35
+Stack trace:
+#0 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-06-21 00:10:35] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'parse error' in /Users/david/Documents/projetos/api-cep/app/Http/Controllers/CepController.php:35
+Stack trace:
+#0 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-06-21 00:55:15] lumen.ERROR: exception 'UnexpectedValueException' with message 'The Response content must be a string or object implementing __toString(), "boolean" given.' in /Users/david/Documents/projetos/api-cep/vendor/symfony/http-foundation/Response.php:399
+Stack trace:
+#0 /Users/david/Documents/projetos/api-cep/vendor/illuminate/http/Response.php(56): Symfony\Component\HttpFoundation\Response->setContent(true)
+#1 /Users/david/Documents/projetos/api-cep/vendor/symfony/http-foundation/Response.php(201): Illuminate\Http\Response->setContent(true)
+#2 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(650): Symfony\Component\HttpFoundation\Response->__construct(true)
+#3 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(512): Laravel\Lumen\Application->prepareResponse(true)
+#4 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(486): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#5 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(383): Laravel\Lumen\Application->handleFoundRoute(Array)
+#6 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(636): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#7 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(389): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#8 /Users/david/Documents/projetos/api-cep/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(334): Laravel\Lumen\Application->dispatch(NULL)
+#9 /Users/david/Documents/projetos/api-cep/public/index.php(28): Laravel\Lumen\Application->run()
+#10 {main}  
