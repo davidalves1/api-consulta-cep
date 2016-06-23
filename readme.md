@@ -41,11 +41,11 @@ API para consulta de CEP na base de dados dos Correios.
 
 - Este projeto já possui o arquivo .htaccess na raiz, que realiza o redirecionamento para a pasta '/public' ao hospedar a API na WEB
 
-- Ao hospedar esta API na WEB, é necessário alterar o caminho da aplicação em bootstrap/app.php acrescentando após o '/../' o caminho para a pasta de sua aplicação. Por exemplo, sua aplicação está na pasta 'public_html' no seu servidor, então o arquivo ficará assim:
+- Ao hospedar esta API na WEB, é necessário alterar o caminho da aplicação em bootstrap/app.php acrescentando após '/../' o caminho para a pasta de sua aplicação. Por exemplo, sua aplicação está na pasta 'public_html' no seu servidor, então o arquivo ficará assim:
 
 ```php
 $app = new Laravel\Lumen\Application(
-    realpath(__DIR__.'/../public_html')
+    realpath(__DIR__.'/../public_html/')
 );
 ```
 
