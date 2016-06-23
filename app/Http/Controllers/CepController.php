@@ -15,7 +15,7 @@ class CepController extends Controller
             return response()->json(['error' => 'O CEP informado é inválido'], 400);
         
         if (!class_exists('SoapClient'))
-            return response()->json(['error' => 'Ops, alguma coisa de errado aconteceu! :(']);
+            return response()->json(['error' => 'Ops, alguma coisa de errado aconteceu! :('], 500);
         
         try {
             // Endereço do webservice dos Correios
