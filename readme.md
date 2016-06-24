@@ -2,9 +2,14 @@
 
 API para consulta de CEP na base de dados dos Correios.
 
+## Requisitos
+
+[!Composer](https://getcomposer.org/doc/00-intro.md)
+
 ## Instalação
 
 - Clonar o repositório com o comando: `$ git clone https://github.com/davidalves1/api-consulta-cep.git 'nome_da_pasta'` :)
+- Executar o comando: `$ composer install`
 
 ## Utilização
 
@@ -49,3 +54,6 @@ $app = new Laravel\Lumen\Application(
 );
 ```
 
+## Exemplo
+
+[!http://cep.integrapp.mobi/api/v1/29730000](http://cep.integrapp.mobi/api/v1/29730000)
