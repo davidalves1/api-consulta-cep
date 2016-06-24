@@ -4,7 +4,7 @@ API para consulta de CEP na base de dados dos Correios.
 
 ## Requisitos
 
-[!Composer](https://getcomposer.org/doc/00-intro.md)
+[Composer](https://getcomposer.org/doc/00-intro.md)
 
 ## Instalação
 
@@ -56,4 +56,4 @@ $app = new Laravel\Lumen\Application(
 
 ## Exemplo
 
-[!http://cep.integrapp.mobi/api/v1/29730000](http://cep.integrapp.mobi/api/v1/29730000)
+[http://cep.integrapp.mobi/api/v1/29730000](http://cep.integrapp.mobi/api/v1/29730000)
