@@ -15,7 +15,7 @@ class CepController extends Controller
             return response()->json(['error' => 'O CEP informado é inválido'], 400);
         
         if (!class_exists('SoapClient'))
-            return response()->json(['error' => 'Ops, alguma coisa de errado aconteceu! :('], 500);
+            return response()->json(['error' => 'Erro interno do Servidor.'], 500);
         
         try {
             // Endereço do webservice dos Correios
@@ -59,7 +59,7 @@ class CepController extends Controller
 
         } catch (\Exception $e) {
 
-            return response()->json(['error' => $e->getMessage()], 404);
+            return response()->json(['error' => 'Erro interno do Servidor.'], 500);
 
         }
     }

@@ -13,7 +13,9 @@
 
 $app->group(['prefix' => 'api/v1', 'namespace' => 'App\Http\Controllers'], function () use ($app) {
 	$app->get('/', function() {
-		return '<div style="text-align: center; font-family: Verdana, sans-serif"><h1>API CEP</h1><p>Saiba mais em <a href="https://github.com/davidalves1">github</a></p>';
+		return '<div style="text-align: center; font-family: Verdana, sans-serif">
+			<h1>API CEP</h1>
+			<p>Saiba mais <a href="https://github.com/davidalves1/api-consulta-cep" target="blank">neste</a> repositório</p>';
 	});
 
 	$app->get('/{cep}', ['uses' => 'CepController@consulta']);
