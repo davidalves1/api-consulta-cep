@@ -60,7 +60,7 @@ $app = new Laravel\Lumen\Application(
 
 ### Contribuições
 
-Crie uma [issue](https://github.com/davidalves1/clima-app/issues/new) ou envie um **pull request** e nos ajude a melhorar o projeto, toda contribuição é muito bem vinda!
+Crie uma [issue](https://github.com/davidalves1/api-consulta-cep/issues/new) ou envie um **pull request** e nos ajude a melhorar o projeto, toda contribuição é muito bem vinda!
 
 ### Licença
 
