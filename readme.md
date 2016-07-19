@@ -54,6 +54,14 @@ $app = new Laravel\Lumen\Application(
 );
 ```
 
-## Exemplo
+### Exemplo
 
 [http://cep.integrapp.mobi/api/v1/29730000](http://cep.integrapp.mobi/api/v1/29730000)
+
+### Contribuições
+
+Crie uma [issue](https://github.com/davidalves1/clima-app/issues/new) ou envie um **pull request** e nos ajude a melhorar o projeto, toda contribuição é muito bem vinda!
+
+### Licença
+
+ISC © David Alves de Souza
